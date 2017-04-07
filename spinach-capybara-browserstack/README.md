@@ -79,21 +79,21 @@ rake BROWSER=chrome # to run as a rake task with parameters
 ```cucumber
 Test Scenario:
 @integration
-Feature: Plethora Login
-    Scenario: I can login to Plethora
-	  Given I am on Plethora login page
+Feature:  Login
+    Scenario: I can login to 
+	  Given I am on  login page
 	  When I type valid email and password
-    Then I can succesfully login to Plethora
+    Then I can succesfully login to 
 ```
 
 ```cucumber
 Test output should be:
-Feature: Plethora Login
+Feature:  Login
 
-  Scenario: I can login to Plethora
-    ✔  Given I am on Plethora login page         # features/steps/plethora_login.rb:2
-    ✔  When I type valid email and password      # features/steps/plethora_login.rb:5
-    ✔  Then I can succesfully login to Plethora      # features/steps/plethora_login.rb:12
+  Scenario: I can login to 
+    ✔  Given I am on  login page         
+    ✔  When I type valid email and password      
+    ✔  Then I can succesfully login to      
 
 Steps Summary: (3) Successful, (0) Pending, (0) Undefined, (0) Failed, (0) Error
 ```
