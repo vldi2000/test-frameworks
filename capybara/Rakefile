@@ -1,0 +1,7 @@
+require 'ci/reporter/rake/spinach'
+
+task :spinach do
+  exec "spinach -r ci_reporter"
+end
+
+task :spinach => 'ci:setup:spinach'
